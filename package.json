@@ -1,10 +1,22 @@
 {
+  "name": "react-18-react-lazy-load-image-component-finddomnode-deprecation",
+  "private": true,
   "dependencies": {
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-lazy-load-image-component": "^1.6.0"
   },
   "devDependencies": {
-    "jest": "^29.7.0"
+    "@babel/core": "^7.24.6",
+    "@babel/preset-env": "^7.24.6",
+    "@babel/preset-react": "^7.24.6",
+    "@testing-library/jest-dom": "^6.4.5",
+    "@testing-library/react": "^15.0.7",
+    "babel-jest": "^29.7.0",
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0"
+  },
+  "scripts": {
+    "test": "jest"
   }
 }
